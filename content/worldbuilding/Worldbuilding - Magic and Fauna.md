@@ -1,5 +1,5 @@
 ---
-title: "{{title}}"
+title: "Worldbuilding - Magic and Fauna"
 status: 🌱🪴🌲🍇
 words:
 tags:
