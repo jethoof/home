@@ -11,7 +11,7 @@ tags:
 I am going to follow [Story Genius by Lisa Cron](https://www.amazon.ca/Story-Genius-Science-Outlining-Riveting/dp/1607748894?crid=2MSUNEAHYIKTA&keywords=story+genius&qid=1648607735&sprefix=story+genius%2Caps%2C134&sr=8-1&linkCode=ll1&tag=&linkId=2b928dcbaec4e1f8a312622b5b3cfea1&language=en_CA&ref_=as_li_ss_tl) to create my short story in my fantasy world I created for my table top roleplaying game with polished 4000 word goal for the story itself with 3 1500 words flash backs for my protagonist's backstory to flesh out the character. This means I have total of 8500 words total to work with.
 
 ### Updates
-2022-04-02 - Added draft and protagonist design, stretching my writing goal to be 20,000. The goal is to write and recording my progress and I w
+2022-04-02 - Added draft and protagonist design, stretching my writing goal to be 20,000. The goal is to write and recording my progress.
 
 
 ## Goals

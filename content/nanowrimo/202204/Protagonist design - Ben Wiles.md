@@ -18,6 +18,6 @@ Ben needs to
 ## Misbelief(s)
 ## Milestone Scenes
 These are Ben's events in the past that forms the foundation of the character's third rail. 
-- [[Milestone Scene 1]]
+- [[nanowrimo/202204/Milestone Scene 1 - draft 1]]
 - [[Milestone Scene 2]]
 - [[Milestone Scene 3]]
