@@ -1,6 +1,6 @@
-baseURL = "https://quartz.jzhao.xyz/"
+baseURL = "https://jethoof.github.io/home"
 languageCode = "en-us"
-googleAnalytics = "G-XYFD95KB4J"
+googleAnalytics = "G-GV694HFF39"
 pygmentsUseClasses = true
 relativeURLs = false
 disablePathToLower = true

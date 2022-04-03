@@ -4,3 +4,7 @@ enableZoom: true
 depth: -1 # set to -1 to show full graph
 paths:
   - /moc: "#4388cc"
+  - /stories: "#4ccc43"
+  - /nanowrimo: "#9a43cc"
+  - /journal: "#f2ea05"
+  - /worldbuilding: "#f28305"
