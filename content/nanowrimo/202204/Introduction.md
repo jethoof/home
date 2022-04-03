@@ -32,9 +32,12 @@ I am going to follow [Story Genius by Lisa Cron](https://www.amazon.ca/Story-Gen
 
 ## Activities
 Note that not all word counts goes towards my final goal as they can be drafts, 
-| Day | Activity                                                                     | Words | Total |
-| --- | ---------------------------------------------------------------------------- | ----- | ----- |
-| 1   | [Brainstorm](nanowrimo/202204/Brainstorm.md)                                 | 217   |       |
-| 1   | [nanowrimo 20220401prompt1](nanowrimo/202204/nanowrimo%2020220401prompt1.md) | 191   |       |
-| 1   | [nanowrimo 20220401prompt2](nanowrimo/202204/nanowrimo%2020220401prompt2.md) | 271   |       |
-| 1   | [nanowrimo20220401prompt3](nanowrimo/202204/nanowrimo20220401prompt3.md)     | 405   |   867    |
+
+| Day | Activity                                                                     | Words | Total, Day | Total, Overall |
+| --- | ---------------------------------------------------------------------------- | ----- | ---------- | -------------- |
+| 1   | [Brainstorm](nanowrimo/202204/Brainstorm.md)                                 | 217   |            |                |
+| 1   | [nanowrimo 20220401prompt1](nanowrimo/202204/nanowrimo%2020220401prompt1.md) | 191   |            |                |
+| 1   | [nanowrimo 20220401prompt2](nanowrimo/202204/nanowrimo%2020220401prompt2.md) | 271   |            |                |
+| 1   | [nanowrimo20220401prompt3](nanowrimo/202204/nanowrimo20220401prompt3.md)     | 405   | 867        |                |
+| 2   | [[nanowrimo/202204/continues on part 2\|20220401prompt3cont]]                | 656   | 656        | 1423               |
+
