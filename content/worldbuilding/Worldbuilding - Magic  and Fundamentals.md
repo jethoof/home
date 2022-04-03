@@ -2,7 +2,7 @@
 title: "Magic and Fundamentals"
 status: 🌱
 tags:
-- worldbuilding
+- worldbuilding/magic
 - questions
 ---
 

@@ -20,7 +20,8 @@ What would have happened to Ben? I think he would have been punished somehow for
 
 **The goal for this background is for him is to have a misbelief to not to trust his intuition of weaving but more on his head. This builds up to the lie of trusting people as he would steel himself to think about other's true intentions behind their actions.** 
 
-The fact that is his relationship with Ollie is teneous as is and this just exasperates even further since Ollie stays in because he's being trained to be the successor to the family trade while Ben was a tag along and a gopher for errands. :: age might be in his 14 or so?::
+The fact that is his relationship with Ollie is tenuous as is and this just exasperates even further since Ollie stays in because he's being trained to be the successor to the family trade while Ben was a tag along and a gopher for errands. :: age might be in his 14 or so?::
 
 Then the solidification of not trusting someone would be falling in love with someone as Ben would have more freedom to explore whatever he wants to do compared to Ollie and Ren? 
 
+[[the merchant training - draft 1]]
