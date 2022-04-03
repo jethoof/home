@@ -13,3 +13,5 @@ One time he was watching deal of some precious metal trade and the man was passi
 the father gave the boys his own ingot  about the same size and explained about using your own reference to do the deal. so both of them were able to hold the ingots on each hand to compare. When Ben held them, there was this weird tingling sensation on his fingertips that he couldn't express with his words. Something about the two ingots were different. It was about the same size and same weight. both had passed the scratch test to see if it was simply coated or the real deal. But something was off in Ben's hands as if something was not natural about it. Ben said they're different and the merchant's ingot felt unnatural.
 
 The merchant laughed off and wanted to rush to close the transactions.
+
+[[continues on part 2]]

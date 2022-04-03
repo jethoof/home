@@ -14,7 +14,7 @@ what kind of trust should there be only to be destroyed? I think it has to be so
 
 Average work horse lives for 25 to 30 years so Ben might be getting his pony Marney and this is where he learns that only animals are to be trusted as they are simple and this could be from Ben's grandfather [[Lugris Wiles]]
 
-Kennarath Wiles and Merona Overglade are Ben's parents.
+Kenneth Wiles and Merona Overglade are Ben's parents.
 
 Side: 
 another backstory is the lack of harmony in the household and he learns that it's his grandfather arranged marriage between Ben's father and mother. 
