@@ -3,6 +3,8 @@ title: "Protagonist design - Ben Wiles"
 status: 🌱🪴🌲🍇
 words: 94
 tags:
+- nanowrimo
+- april22
 ---
 
 ## Physical description

@@ -1,8 +1,10 @@
 ---
 title: "Milestone Scene 1"
 status: 🌱🪴🌲🍇
-words:
+words: 250
 tags:
+- nanowrimo
+- april22
 ---
 Ben gains misbelief about note trusting someone? 
 Ben interacts with someone who had their own intention to use ben as a means to benefit them instead and leave him on the side once the  goals are achieved, his father comes into let him know that there's not even a single being to trust, including his family members because everyone's out for themselves and if he cannot grasp that then he won't be able to be a good merchant.

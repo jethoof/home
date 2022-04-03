@@ -3,6 +3,8 @@ title: "NaNoWriMo - 10 min prompt"
 status: 🌱🪴🌲🍇
 words: 271
 tags: 
+- nanowrimo
+- april22
 actors:
 - Ben
 ---

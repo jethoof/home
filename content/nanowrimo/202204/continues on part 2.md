@@ -3,6 +3,8 @@ title: "continues on part 2"
 status: 🌱🪴🌲🍇
 words: 656
 tags:
+- nanowrimo
+- april22
 ---
 Ben wasn't sure what it was but he pushes to his father that there's something off about the gold bars, they weren't exact but he wasn't sure how to tell them other than his fingertips told him it's different. The merchant wasn't telling them the truth. The merchant squinted and disregarded Ben's comment and Ben's persistence angered Kenneth, he informed Ben is misbehaving and the gold ingot passed all the usual tests, the scratch test and weight. He insisted but he was scolded and escorted out of the negotiation by Ollie and the transaction happened without him. 
 

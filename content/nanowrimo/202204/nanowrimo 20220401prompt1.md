@@ -4,6 +4,8 @@ status: 🌱
 words: 191
 tags:
 - writingsprint
+- nanowrimo
+- april22
 ---
 ## Sprinting duration: 5 min
 ## Prompts: 

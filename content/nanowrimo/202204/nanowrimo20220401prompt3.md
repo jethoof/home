@@ -3,6 +3,8 @@ title: "​Prompt #3: What is your main character’s most embarrassing memory? 
 status: 🌱🪴🌲🍇
 words: 405
 tags:
+- nanowrimo
+- april22
 ---
 Ollie and Ben are never in good terms as long as he can remember. his brother was always sick and their father was always concerned for him more than anything. Ben was healthy and he had all the love and attention from his grandfather. Ollie was going to be the heir for the merchant business of the family and to make up for his lack of health he made up with his brilliant intellect and there was no dispute about how much smarter he was compared to Ben. He was analytical and thoughtful. it was admiring how calm and collected he was all the time despite he's just 2 years older than himself. 
 
