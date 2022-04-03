@@ -1,4 +1,4 @@
-name: Jacky Zhao
+name: Jethoof
 enableToc: true
 enableLinkPreview: true
 enableLatex: true
@@ -8,7 +8,5 @@ description:
 page_title:
   "🪴 Quartz 3.2"
 links:
-  - link_name: Twitter
-    link: https://twitter.com/_jzhao
   - link_name: Github
-    link: https://github.com/jackyzha0
+    link: https://github.com/jethoof
