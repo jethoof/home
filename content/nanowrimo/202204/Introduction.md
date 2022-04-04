@@ -40,6 +40,7 @@ Note that not all word counts goes towards my final goal as they can be drafts,
 | 1   | [nanowrimo 20220401prompt2](nanowrimo/202204/nanowrimo%2020220401prompt2.md) | 271   |            |                |
 | 1   | [nanowrimo20220401prompt3](nanowrimo/202204/nanowrimo20220401prompt3.md)     | 405   | 867        |                |
 | 2   | [[nanowrimo/202204/continues on part 2\|20220401prompt3cont]]                | 656   | 656        |                |
-| 2   | [[nanowrimo/202204/Milestone Scene 1 - draft 1]]                             | 250   | 906        | 1673           |
+| 2   | [[nanowrimo/202204/Milestone Scene 1 - draft 1]]                             | 250   | 906        |            |
 | 3   | [[nanowrimo/202204/the merchant training - draft 1]]                         | 2143  |            |                |
+| 4   | [[nanowrimo/202204/Ben's misbelief ideation, day 4]]                         | 1064  |            | 4880               |
 
