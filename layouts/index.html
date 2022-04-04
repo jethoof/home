@@ -12,10 +12,12 @@
         <div class="spacer"></div>
         {{partial "darkmode.html" .}}
     </header>
+    <div class="index">
     <div class="writing-sidebar">
+        
         <div class="delay t-4">
-            <h2>Recent Writing</h2>
-            {{$writing := where .Site.RegularPages "Section" "posts" }}
+            <h2>Recent Journal</h2>
+            {{$writing := where .Site.RegularPages "journal" "posts" }}
             <ul class="delay stagger">
                 {{range first 3 $writing }}
                 <li class="section-li">
@@ -35,7 +37,7 @@
         </div>
         <div class="delay t-5">
             <h2>Recent Notes</h2>
-            {{$notes := where .Site.RegularPages "Section" "thoughts"}}
+            {{$notes := where .Site.RegularPages "notes" "worldbuilding" "nanowrimo"}}
             <ul class="delay stagger">
                 {{range first 3 $notes }}
                 <li class="section-li">
@@ -64,6 +66,8 @@
     </article>
     {{partial "footer.html" .}}
     {{partial "popover.html" .}}
+
+</div>
 </div>
 </body>
 </html>
