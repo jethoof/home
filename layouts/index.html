@@ -17,7 +17,7 @@
         
         <div class="delay t-4">
             <h2>Recent Journal</h2>
-            {{$writing := where .Site.RegularPages "journal" "posts" }}
+            {{$writing := where .Site.RegularPages "journal" }}
             <ul class="delay stagger">
                 {{range first 3 $writing }}
                 <li class="section-li">
