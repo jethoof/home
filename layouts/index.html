@@ -13,57 +13,58 @@
         {{partial "darkmode.html" .}}
     </header>
     <div class="index">
-    <div class="writing-sidebar">
-        
-        <div class="delay t-4">
-            <h2>Recent Journal</h2>
-            {{$writing := where .Site.RegularPages "Section" "journal" }}
-            <ul class="delay stagger">
-                {{range first 3 $writing }}
-                <li class="section-li">
-                    <div class="section">
-                        <div class="desc">
-                            <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+        <div class="bio">
+        <div class="writing-sidebar">
+            
+       
+                <h2>Recent Journal</h2>
+                {{$writing := where .Site.RegularPages "Section" "journal" }}
+                <ul class="delay stagger">
+                    {{range first 3 $writing }}
+                    <li class="section-li">
+                        <div class="section">
+                            <div class="desc">
+                                <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+                            </div>
+                            <p class="meta">
+                                {{.WordCount}} words. {{if ne .Date .Lastmod}}{{ .Lastmod.Format "January 2, 2006" }}{{else}}Unknown{{end}}
+                            </p>
+                            {{partial "tags.html" .}}
                         </div>
-                        <p class="meta">
-                            {{.WordCount}} words. {{if ne .Date .Lastmod}}{{ .Lastmod.Format "January 2, 2006" }}{{else}}Unknown{{end}}
-                        </p>
-                        {{partial "tags.html" .}}
-                    </div>
-                </li>
-                {{end}}
-            </ul>
-            <a href="/home/journal">See {{sub (len $writing) 3}} more →</a>
-        </div>
-        <div class="delay t-5">
-            <h2>Recent Notes</h2>
-            {{$notes := where .Site.RegularPages "Section" "nanowrimo"}}
-            <ul class="delay stagger">
-                {{range first 3 $notes }}
-                <li class="section-li">
-                    <div class="section">
-                        <div class="desc">
-                            <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+                    </li>
+                    {{end}}
+                </ul>
+                <a href="/home/journal">See {{sub (len $writing) 3}} more →</a>
+            </div>
+           
+                <h2>Recent Notes</h2>
+                {{$notes := where .Site.RegularPages "Section" "nanowrimo"}}
+                <ul class="delay stagger">
+                    {{range first 3 $notes }}
+                    <li class="section-li">
+                        <div class="section">
+                            <div class="desc">
+                                <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+                            </div>
+                            <p class="meta">
+                                {{.WordCount}} words. {{if ne .Date .Lastmod}}{{ .Lastmod.Format "January 2, 2006" }}{{else}}Unknown{{end}}
+                            </p>
+                            {{partial "tags.html" .}}
                         </div>
-                        <p class="meta">
-                            {{.WordCount}} words. {{if ne .Date .Lastmod}}{{ .Lastmod.Format "January 2, 2006" }}{{else}}Unknown{{end}}
-                        </p>
-                        {{partial "tags.html" .}}
-                    </div>
-                </li>
-                {{end}}
-            </ul>
-            <a href="/home/nanowrimo">See {{sub (len $notes) 3}} more →</a>
+                    </li>
+                    {{end}}
+                </ul>
+                <a href="/home/nanowrimo">See {{sub (len $notes) 3}} more →</a>
+            </div>
         </div>
-    </div>
-    <article>
-        {{ if (and $.Site.Data.config.enableToc (ne .Params.enableToc false) (gt .WordCount 250)) }}
-        <aside class="mainTOC">
-            <details {{ if $.Site.Data.config.openToc }}open {{ end }}>
-                <summary>Table of Contents</summary>
-                {{ .TableOfContents }}
-            </details>
-        </aside>
+        <article>
+            {{ if (and $.Site.Data.config.enableToc (ne .Params.enableToc false) (gt .WordCount 250)) }}
+            <aside class="mainTOC">
+                <details {{ if $.Site.Data.config.openToc }}open {{ end }}>
+                    <summary>Table of Contents</summary>
+                    {{ .TableOfContents }}
+                </details>
+            </aside>
         {{end}}
         {{partial "textprocessing.html" . }}
     </article>
