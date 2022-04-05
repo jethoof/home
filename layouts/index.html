@@ -56,10 +56,12 @@
             <a href="/home/nanowrimo">See {{sub (len $notes) 3}} more →</a>
         </div>
     <article>
-        {{ if (and $.Site.Data.config.enableToc (not (.Params.disableToc))) }}
+        {{ if (and $.Site.Data.config.enableToc (ne .Params.enableToc false) (gt .WordCount 250)) }}
         <aside class="mainTOC">
-            <h3>Table of Contents</h3>
-            {{ .TableOfContents }}
+            <details {{ if $.Site.Data.config.openToc }}open {{ end }}>
+                <summary><h4>Table of Contents</h4></summary>
+                {{ .TableOfContents }}
+            </details>
         </aside>
         {{end}}
         {{partial "textprocessing.html" . }}
