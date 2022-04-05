@@ -31,13 +31,13 @@ tags:
 					- this feels bit weak I feel like the third one should have the nail in the coffin to drive this home. would the merchant one? I think [[nanowrimo/202204/the merchant training - draft 1|merchant]]  training one is in the middle where it helps to solidify that someone else lies. also this builds up on why Ben would be wary to meet another dwarf merchant in the first chapter, he's met one before with his family and that's when his family member was duped. 
 						-  [ ] I need to write a summary of the story flow of that so I can edit it better for the context. 
 	- I think they would get lost in the woods, the Iron Woods where it's known for elves to hunt humans for slavery and just because they see humans as a pest of nature. 🔥
-	- so what would be the immediate threat if the elves are the looming threat? would they be saved by someone or REn ran away and ben is left behind since he's a younger one? 
-		**- [[nanowrimo/202204/Protagonist design - Ben Wiles|Ben Wiles]] would be 9 and Ren would be 14 that means Ollie would be 11, perfect!!**
+	- so what would be the immediate threat if the elves are the looming threat? would they be saved by someone or Ren ran away and ben is left behind since he's a younger one? 
+		**- [[nanowrimo/202204/Protagonist design - Ben Wiles|Ben Wiles]] would be 9 and Ren would be 13 that means Ollie would be 11, perfect!!**
 
 # So let's recap on that running just now:
 When Ben was 9 him and his older sister Ren goes into the Iron Woods for a race but ended up getting lost and they are left to argue and some of the inner Ren would come out but when they are rescued by the searchers Ren turns on Ben but Marney stays by his side and he talks to Marney that he has no one to rely on at his house but Marney since she listens to him all the time.
 
-to do: 
+**to do:** 
 figure out what the immediate threat is, be it wolves or something that would stalk or chase them that would cause escalation and ended up getting lost. I think wolves might work but something even greater would be better? I don't know something fantastical to show that there's more than just wild animals are there to harm them. 
 
 Ren wound goad Ben for a race despite she's got a racing horse while Ben's got a workhorse. I think this would come in handy that Marney is a workhorse and able to drag things twice her weight in comparison to racing horse.  A Iron Tree falls and blocks a path back home and Marney suggests Ben to make her drag the wood away? why would a tree fall? Iron Wood Elf's trap? while they were running away from something in the woods? 
