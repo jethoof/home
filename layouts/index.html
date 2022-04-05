@@ -17,7 +17,7 @@
         
         <div class="delay t-4">
             <h2>Recent Journal</h2>
-            {{$writing := where .Site.RegularPages "journal" }}
+            {{$writing := where .Site.RegularPages "Section" "journal" }}
             <ul class="delay stagger">
                 {{range first 3 $writing }}
                 <li class="section-li">
@@ -37,7 +37,7 @@
         </div>
         <div class="delay t-5">
             <h2>Recent Notes</h2>
-            {{$notes := where .Site.RegularPages "notes" "worldbuilding" "nanowrimo"}}
+            {{$notes := where .Site.RegularPages "Section" "worldbuilding" "nanowrimo"}}
             <ul class="delay stagger">
                 {{range first 3 $notes }}
                 <li class="section-li">
@@ -53,7 +53,7 @@
                 </li>
                 {{end}}
             </ul>
-            <a href="/thoughts">See {{sub (len $notes) 3}} more →</a>
+            <a href="/home/nanowrimo">See {{sub (len $notes) 3}} more →</a>
         </div>
     <article>
         {{ if (and $.Site.Data.config.enableToc (not (.Params.disableToc))) }}
