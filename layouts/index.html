@@ -55,6 +55,7 @@
             </ul>
             <a href="/home/nanowrimo">See {{sub (len $notes) 3}} more →</a>
         </div>
+    </div>
     <article>
         {{ if (and $.Site.Data.config.enableToc (ne .Params.enableToc false) (gt .WordCount 250)) }}
         <aside class="mainTOC">
@@ -69,7 +70,7 @@
     {{partial "footer.html" .}}
     {{partial "popover.html" .}}
 
-</div>
+    </div>
 </div>
 </body>
 </html>
