@@ -37,7 +37,7 @@
         </div>
         <div class="delay t-5">
             <h2>Recent Notes</h2>
-            {{$notes := where .Site.RegularPages "Section" "worldbuilding" "nanowrimo"}}
+            {{$notes := where .Site.RegularPages "Section" "nanowrimo"}}
             <ul class="delay stagger">
                 {{range first 3 $notes }}
                 <li class="section-li">
