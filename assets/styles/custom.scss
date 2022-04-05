@@ -22,3 +22,65 @@
   --lightgray: #292633 !important;
   --outlinegray: #343434 !important;
 }
+
+.index {
+  padding: 1em ;
+  @media all and (max-width: 1200px) {
+    padding: 9px 1vw;
+  }
+
+  & > .bio {
+    display: flex;
+    gap: 1.5em;
+
+    @media screen and (max-width: 1440px) {
+      flex-direction: column-reverse !important;
+      gap: 4em;
+    }
+
+    & > .writing-sidebar {
+      flex: 0 0 30%;
+
+      & > div {
+        margin-bottom: 2em;
+      }
+
+      & ul {
+        list-style: none;
+        padding: 0;
+        margin-left: 0;
+        z-index: 0;
+      }
+
+      & > div > a {
+        opacity: 0.6;
+      }
+
+      & h2 {
+        font-size: 1.4rem;
+        margin: 0.75em 0;
+      }
+
+      & a {
+        font-family: Spectral
+      }
+
+      & li {
+        margin-bottom: 0.5em;
+      }
+
+      & h3 {
+        margin: 0;
+      }
+
+      & .meta {
+        margin-top: 0;
+      }
+
+      & .tags > li > a {
+        font-size: 0.8em;
+        font-weight: 400;
+      }
+    }
+  }
+}

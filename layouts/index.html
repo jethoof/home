@@ -14,29 +14,27 @@
     </header>
     <div class="index">
         <div class="bio">
-        <div class="writing-sidebar">
-            
-       
-                <h2>Recent Journal</h2>
-                {{$writing := where .Site.RegularPages "Section" "journal" }}
-                <ul class="delay stagger">
-                    {{range first 3 $writing }}
-                    <li class="section-li">
-                        <div class="section">
-                            <div class="desc">
-                                <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
-                            </div>
-                            <p class="meta">
-                                {{.WordCount}} words. {{if ne .Date .Lastmod}}{{ .Lastmod.Format "January 2, 2006" }}{{else}}Unknown{{end}}
-                            </p>
-                            {{partial "tags.html" .}}
-                        </div>
-                    </li>
-                    {{end}}
-                </ul>
+            <div class="writing-sidebar">
+                 <div>
+                    <h2>Recent Journal</h2>
+                        {{$writing := where .Site.RegularPages "Section" "journal" }}
+                        <ul class="delay stagger">
+                            {{range first 3 $writing }}
+                            <li class="section-li">
+                                <div class="section">
+                                    <div class="desc">
+                                        <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+                                    </div>
+                                    <p class="meta">
+                                        {{.WordCount}} words. {{if ne .Date .Lastmod}}{{ .Lastmod.Format "January 2, 2006" }}{{else}}Unknown{{end}}
+                                    </p>
+                                    {{partial "tags.html" .}}
+                                </div>
+                            </li>
+                            {{end}}
+                        </ul>
                 <a href="/home/journal">See {{sub (len $writing) 3}} more →</a>
-            </div>
-           
+                <div>
                 <h2>Recent Notes</h2>
                 {{$notes := where .Site.RegularPages "Section" "nanowrimo"}}
                 <ul class="delay stagger">
@@ -56,8 +54,9 @@
                 </ul>
                 <a href="/home/nanowrimo">See {{sub (len $notes) 3}} more →</a>
             </div>
-        </div>
-        <article>
+       </div>
+            </div>
+       <article>
             {{ if (and $.Site.Data.config.enableToc (ne .Params.enableToc false) (gt .WordCount 250)) }}
             <aside class="mainTOC">
                 <details {{ if $.Site.Data.config.openToc }}open {{ end }}>
@@ -68,6 +67,10 @@
         {{end}}
         {{partial "textprocessing.html" . }}
     </article>
+    </div>
+</div>
+
+    <div>
     {{partial "footer.html" .}}
     {{partial "popover.html" .}}
 
