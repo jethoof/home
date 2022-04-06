@@ -1,8 +1,8 @@
 <!doctype html><html lang=en>
 <head>
 <meta charset=utf-8>
-<meta name=description content>
-<title>Nanowrimoes</title>
+<meta name=description content="1 2  /   What I want to create with this tool Show world count on mouse hover Rearrange the thing so it can show yearly and monthly if possible.">
+<title>Activity History</title>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <link rel="shortcut icon" type=image/png href=/icon.png>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&family=Fira+Code:wght@400;700&display=swap" rel=stylesheet>
@@ -39,59 +39,136 @@
 </div>
 </header>
 <article>
-<h1>All Nanowrimoes</h1>
-<ul class=section-ul><li class=section-li>
-<div class=section>
-<div class=desc>
-<h3><a href=https://jethoof.github.io/home/nanowrimo/202204/nanowrimo20220401prompt3/>​Prompt #3: What is your main character’s most embarrassing memory? Has it affected the things they do or the ways they interact with other characters now?</a></h3>
-<p>Ollie and Ben are never in good terms as long as he can remember. his brother was always sick and their father was always concerned for him more than anything....</p>
-</div>
+<h1>Activity History</h1>
 <p class=meta>
-2 minute read. Last updated April 6, 2022
+Last updated April 6, 2022
 </p>
+<ul class=tags>
+</ul>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>/
+
+</code></pre></td></tr></table>
 </div>
-</li><li class=section-li>
-<div class=section>
-<div class=desc>
-<h3><a href=https://jethoof.github.io/home/nanowrimo/202204/the-merchant-training-draft-1/>the merchant training - draft 1</a></h3>
-<p>&ldquo;Just be silent and watch how the transaction is being done between tradesman, you understand?&rdquo; my father ordered and I nodded and couldn&rsquo;t withold my giddiness....</p>
+</div><p>What I want to create with this tool
+Show world count on mouse hover
+Rearrange the thing so it can show yearly and monthly if possible.
+also on early one there should be some shading to show different months so you know where the boundaries are.</p>
+<p>question:
+How and where do I start???</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>const calendarData = {
+	entries: []
+}
+for(let page of dv.pages(). where(p=&gt;p.words).sort(p=&gt;p.file.name)){
+	calendarData.entries.push({
+		date: page.file.cday,
+		intensity: page.words
+	})
+
+
+}
+renderHeatmapCalendar(this.container, calendarData)
+
+</code></pre></td></tr></table>
 </div>
-<p class=meta>
-11 minute read. Last updated April 6, 2022
-</p>
+</div><div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>dv.span(&#34;**Words Activity**&#34;)
+
+const calendarData = {
+    entries: []
+}
+
+for(let page of dv.pages().where(p=&gt;p.words).sort(p=&gt;p.file.name)){
+    calendarData.entries.push({
+        date: page.file.cday,
+        intensity: page.words
+    })
+       
+}
+
+renderHeatmapCalendar(this.container, calendarData)
+
+</code></pre></td></tr></table>
 </div>
-</li><li class=section-li>
-<div class=section>
-<div class=desc>
-<h3><a href=https://jethoof.github.io/home/nanowrimo/202204/Story-Overview/>Story Overview</a></h3>
-<p>Ben finally struck some luck with some trades in a remote hamlet and planning to head back to his home town, however he hears a news a war has broken out and now he cannot go back the way he came from....</p>
+</div><p>tables</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback>dv.table([&#34;Title&#34;, &#34;Words&#34;], dv.pages()
+	.sort(b =&gt; b.file.size)
+	.map(b =&gt; [b.file.link, b.file.size]))
+
+
+</code></pre></td></tr></table>
 </div>
-<p class=meta>
-1 minute read. Last updated April 6, 2022
-</p>
 </div>
-</li></ul>
-<ul class="pagination pagination-default">
-<li class=page-item>
-<a href=/home/nanowrimo/ aria-label=First class=page-link role=button><span aria-hidden=true>&#171;&#171;</span></a>
-</li>
-<li class=page-item>
-<a href=/home/nanowrimo/ aria-label=Previous class=page-link role=button><span aria-hidden=true>&#171;</span></a>
-</li>
-<li class=page-item>
-<a href=/home/nanowrimo/ aria-label="Page 1" class=page-link role=button>1</a>
-</li>
-<li class="page-item active">
-<a aria-current=page aria-label="Page 2" class=page-link role=button>2</a>
-</li>
-<li class="page-item disabled">
-<a aria-disabled=true aria-label=Next class=page-link role=button tabindex=-1><span aria-hidden=true>&#187;</span></a>
-</li>
-<li class="page-item disabled">
-<a aria-disabled=true aria-label=Last class=page-link role=button tabindex=-1><span aria-hidden=true>&#187;&#187;</span></a>
+</article>
+<hr>
+<div class=page-end>
+<div class=backlinks-container>
+<h3>Backlinks</h3>
+<ul class=backlinks>
+<li>
+No backlinks found
 </li>
 </ul>
-</article>
+</div>
+<div>
+<script src=https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI=" crossorigin=anonymous></script>
+<h3>Interactive Graph</h3>
+<div id=graph-container></div>
+<style>:root{--g-node:var(--secondary);--g-node-active:var(--primary);--g-node-inactive:var(--visited);--g-link:var(--outlinegray);--g-link-active:#5a7282}</style>
+<script src=https://jethoof.github.io/home/js/graph.27e8521c25c27c79dea35f434c486167.js></script>
+<script>drawGraph("https://jethoof.github.io/home/notes/Activity-History","https://jethoof.github.io/home",[{"/moc":"#4388cc"},{"/stories":"#4ccc43"},{"/nanowrimo":"#9a43cc"},{"/journal":"#f2ea05"},{"/worldbuilding":"#f28305"}],-1,!0,!1,!0)</script>
+</div>
+</div>
 <div id=contact_buttons>
 <footer>
 <p>Made by Jethoof using <a href=https://github.com/jackyzha0/quartz>Quartz</a>, © 2022</p>
@@ -100,8 +177,8 @@
 <li><a href=https://github.com/jethoof>Github</a></li></ul>
 </footer>
 </div>
-</div>
 <script src=https://jethoof.github.io/home/js/popover.9d69dffc0f2d029ef30cf63230ccce4c.min.js></script>
 <script>initPopover("https://jethoof.github.io/home")</script>
+</div>
 </body>
 </html>
