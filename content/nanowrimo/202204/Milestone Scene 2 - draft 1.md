@@ -65,6 +65,6 @@ The air in the forest was heavier than usual, perhaps its' the weather but there
 
 We followed the tracks and kept our watchful eyes on the surroundings, the eerie stare from the  distance continued to chase us and whenever I looked in the direction, the feeling faded. The tracks were clear but it was heading further up north, nearing the border of the borders. Beyond would mean entering the area of wood elves. 
 
-"Sister?" I shouted but only the silence replied, not even the birds sang. 
+"Sister?" I shouted but only the silence replied, not even the birds sang.  ^6fb490
 
 [[nanowrimo/202204/Milestone Scene 2 - draft 1 - Part 2]]
