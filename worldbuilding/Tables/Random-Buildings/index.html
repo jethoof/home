@@ -1,8 +1,8 @@
 <!doctype html><html lang=en>
 <head>
 <meta charset=utf-8>
-<meta name=description content="Settlements 1 A village, town, or city makes an excellent backdrop for an adventure. The adventurers might be called on to track down a criminal who&rsquo;s gone into hiding, solve a murder, take out a gang of wererats or doppelgangers, or protect a settlement under siege.">
-<title>Settlement Generator</title>
+<meta name=description content="Random Buildings Pulse-pounding chases and harrowing escapes within the confines of a town or city can sometimes force characters to dash into buildings.">
+<title>Random Buildings</title>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <link rel="shortcut icon" type=image/png href=/icon.png>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&family=Fira+Code:wght@400;700&display=swap" rel=stylesheet>
@@ -39,7 +39,7 @@
 </div>
 </header>
 <article>
-<h1>Settlement Generator</h1>
+<h1>Random Buildings</h1>
 <p class=meta>
 Last updated April 16, 2022
 </p>
@@ -49,583 +49,457 @@ Last updated April 16, 2022
 <aside class=mainTOC>
 <details>
 <summary>Table of Contents</summary>
-<nav id=TableOfContents></nav>
+<nav id=TableOfContents>
+<ol>
+<li><a href=#building-type>Building Type</a></li>
+<li><a href=#residence>Residence</a></li>
+<li><a href=#religious>Religious</a></li>
+<li><a href=#tavern>Tavern</a>
+<ol>
+<li><a href=#tavern-name-generator>Tavern Name Generator</a></li>
+</ol>
+</li>
+<li><a href=#warehouse>Warehouse</a></li>
+<li><a href=#shop>Shop</a></li>
+</ol>
+</nav>
 </details>
 </aside>
-<h1 id=settlements-1>Settlements <sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></h1>
-<p>A village, town, or city makes an excellent backdrop for an adventure. The adventurers might be called on to track down a criminal who&rsquo;s gone into hiding, solve a murder, take out a gang of wererats or doppelgangers, or protect a settlement under siege.
-When creating a settlement for your campaign, focus on the locations that are most relevant to the adventure. Don&rsquo;t worry about naming every street and identifying the inhabitants of every building; that way lies madness.</p>
+<h1 id=random-buildings>Random Buildings</h1>
+<p>Pulse-pounding chases and harrowing escapes within the confines of a town or city can sometimes force characters to dash into buildings. When you need to flesh out a building quickly, roll on the Building Type table. Then roll on the table corresponding to that building to add further detail.
+If a roll makes no sense considering where the characters are (such as a lavish mansion in a rundown
+part of town), you can always roll again or simply choose another result. However, such unexpected results can prompt creativity and memorable locations that help make your urban encounters distinct.</p>
 <blockquote>
-<p>[!info] Settlement</p>
-<p>Community Size: <code>dice:<a href=/home/worldbuilding/Tables/Settlements#^size rel=noopener class=internal-link data-src=/home/worldbuilding/Tables/Settlements>Settlements</a></code>
-Race Relations: <code>dice: <a href=/home/worldbuilding/Tables/Settlements#^race rel=noopener class=internal-link data-src=/home/worldbuilding/Tables/Settlements>Settlements</a></code>
-Ruler&rsquo;s Status: <code>dice: <a href=/home/worldbuilding/Tables/Settlements#^ruler rel=noopener class=internal-link data-src=/home/worldbuilding/Tables/Settlements>Settlements</a></code>
-Notable Traits: <code>dice: <a href=/home/worldbuilding/Tables/Settlements#^notable rel=noopener class=internal-link data-src=/home/worldbuilding/Tables/Settlements>Settlements</a></code>
-Known for its <code>dice: <a href=/home/worldbuilding/Tables/Settlements#^known rel=noopener class=internal-link data-src=/home/worldbuilding/Tables/Settlements>Settlements</a></code>
-Current Calamity: <code>dice: <a href=/home/worldbuilding/Tables/Settlements#^calamity rel=noopener class=internal-link data-src=/home/worldbuilding/Tables/Settlements>Settlements</a></code>
-Overall Alignment: <code>dice:<a href=/home/worldbuilding/Tables/Settlements#^alignment rel=noopener class=internal-link data-src=/home/worldbuilding/Tables/Settlements>Settlements</a></code>
-Government: <code>dice: <a href=/home/worldbuilding/Tables/Settlements#^Government rel=noopener class=internal-link data-src=/home/worldbuilding/Tables/Settlements>Settlements</a></code></p>
+<p>[!info] Random Building</p>
+<p><code>dice: <a href=/home/worldbuilding/Tables/Random-Buildings#^buildingtype rel=noopener class=internal-link data-src=/home/worldbuilding/Tables/Random-Buildings>Random Buildings</a></code></p>
 </blockquote>
-<table>
-<thead>
-<tr>
-<th>Community Sizes</th>
-<th>Population</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Thorp</td>
-<td>20-80</td>
-</tr>
-<tr>
-<td>Hamlet</td>
-<td>81-400</td>
-</tr>
-<tr>
-<td>Village</td>
-<td>401-900</td>
-</tr>
-<tr>
-<td>Small Town</td>
-<td>901-2,000</td>
-</tr>
-<tr>
-<td>Large Town</td>
-<td>2,001-5,000</td>
-</tr>
-<tr>
-<td>Small City</td>
-<td>5,001-12,000</td>
-</tr>
-<tr>
-<td>Large City</td>
-<td>12,001 - 25,000</td>
-</tr>
-<tr>
-<td>Metropolis</td>
-<td>25,001 -</td>
-</tr>
-<tr>
-<td>^size</td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h2 id=building-type>Building Type</h2>
 <table>
 <thead>
 <tr>
 <th>dice:1d20</th>
-<th>Race Relations</th>
+<th>Building Type</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1-10</td>
-<td>Harmony</td>
+<td>Residence: <code>dice: <a href=/home/worldbuilding/Tables/Random-Buildings#^residence rel=noopener class=internal-link data-src=/home/worldbuilding/Tables/Random-Buildings>Random Buildings</a></code></td>
 </tr>
 <tr>
-<td>11-14</td>
-<td>Tension or rivalry</td>
+<td>11-12</td>
+<td>Religious: <code>dice: <a href=/home/worldbuilding/Tables/Random-Buildings#^religious rel=noopener class=internal-link data-src=/home/worldbuilding/Tables/Random-Buildings>Random Buildings</a></code></td>
 </tr>
 <tr>
-<td>15-16</td>
-<td>Racial Majority are conquerors</td>
+<td>13-15</td>
+<td>Tavern: <code>dice: <a href=/home/worldbuilding/Tables/Random-Buildings#^tavern rel=noopener class=internal-link data-src=/home/worldbuilding/Tables/Random-Buildings>Random Buildings</a></code></td>
 </tr>
 <tr>
-<td>17</td>
-<td>Racial minority are rulers</td>
+<td>16-17</td>
+<td>Warehouse: <code>dice: <a href=/home/worldbuilding/Tables/Random-Buildings#^warehouse rel=noopener class=internal-link data-src=/home/worldbuilding/Tables/Random-Buildings>Random Buildings</a></code></td>
 </tr>
 <tr>
-<td>18</td>
-<td>Racial minority are refugees</td>
+<td>18-20</td>
+<td>Shop: <code>dice: <a href=/home/worldbuilding/Tables/Random-Buildings#^shop rel=noopener class=internal-link data-src=/home/worldbuilding/Tables/Random-Buildings>Random Buildings</a></code></td>
 </tr>
 <tr>
-<td>19</td>
-<td>Racial majority oppresses minority</td>
-</tr>
-<tr>
-<td>20</td>
-<td>Racial minority oppresses majority</td>
-</tr>
-<tr>
-<td>^race</td>
+<td>^buildingtype</td>
 <td></td>
 </tr>
 </tbody>
 </table>
+<h2 id=residence>Residence</h2>
 <table>
 <thead>
 <tr>
 <th>dice:1d20</th>
-<th>Ruler&rsquo;s Status</th>
+<th>Building Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-2</td>
+<td>Abandoned squat</td>
+</tr>
+<tr>
+<td>3-8</td>
+<td>Middle-class home</td>
+</tr>
+<tr>
+<td>9-10</td>
+<td>Upper-class home</td>
+</tr>
+<tr>
+<td>11-15</td>
+<td>Crowded tenement</td>
+</tr>
+<tr>
+<td>16-17</td>
+<td>Orphanage</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Hidden slavers' den</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Front for a secret cult</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Lavish, guarded mansion</td>
+</tr>
+<tr>
+<td>^residence</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id=religious>Religious</h2>
+<table>
+<thead>
+<tr>
+<th>dice:1d20</th>
+<th>Building Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1-10</td>
+<td>Temple to a good or neutral deity</td>
+</tr>
+<tr>
+<td>11-12</td>
+<td>Temple to a false deity (run by charlatan priests)</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Home of ascetics</td>
+</tr>
+<tr>
+<td>14-15</td>
+<td>Abandoned shrine</td>
+</tr>
+<tr>
+<td>16-17</td>
+<td>Library dedicated to a religious study</td>
+</tr>
+<tr>
+<td>18-20</td>
+<td>Hidden shrine to a fiend or an evil deity</td>
+</tr>
+<tr>
+<td>^religious</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id=tavern>Tavern</h2>
+<table>
+<thead>
+<tr>
+<th>dice:1d20</th>
+<th>Building Type</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1-5</td>
-<td>Respected, fair, and just</td>
+<td>Quiet, low-key bar</td>
 </tr>
 <tr>
-<td>6-8</td>
-<td>Feared tyrant</td>
-</tr>
-<tr>
-<td>9</td>
-<td>weakling manipulated by others</td>
+<td>6-9</td>
+<td>Raucous dive</td>
 </tr>
 <tr>
 <td>10</td>
-<td>Illegitimate ruler, simmering civil war</td>
+<td>Thieves' guild hangout</td>
 </tr>
 <tr>
 <td>11</td>
-<td>Ruled or controlled by a powerful monster</td>
+<td>Gathering place for a secret society</td>
 </tr>
 <tr>
-<td>12</td>
-<td>Mysterious, anonymous cabal</td>
+<td>12-13</td>
+<td>Upper-class dining club</td>
 </tr>
 <tr>
-<td>13</td>
-<td>Contested leadership, open fighting</td>
+<td>14-15</td>
+<td>Gambling den</td>
 </tr>
 <tr>
-<td>14</td>
-<td>Cabal seized power openly</td>
+<td>16-17</td>
+<td>Caters to specific race or guild</td>
 </tr>
 <tr>
-<td>15</td>
-<td>Doltish lout</td>
+<td>18</td>
+<td>Members-only club</td>
 </tr>
 <tr>
-<td>16</td>
-<td>On deathbed, claimants compete for power</td>
+<td>19-20</td>
+<td>Brothel</td>
 </tr>
 <tr>
-<td>17-18</td>
-<td>Ion-willed but respected</td>
-</tr>
-<tr>
-<td>18-20</td>
-<td>Religious leader</td>
-</tr>
-<tr>
-<td>^ruler</td>
+<td>^tavern</td>
 <td></td>
 </tr>
 </tbody>
 </table>
+<h3 id=tavern-name-generator>Tavern Name Generator</h3>
 <table>
 <thead>
 <tr>
 <th>dice:1d20</th>
-<th>Notable Traits</th>
+<th>First</th>
+<th>Second</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td>Canals in place of streets</td>
+<td>Silver</td>
+<td>Eel</td>
 </tr>
 <tr>
 <td>2</td>
-<td>Massive statue or monument</td>
+<td>Golden</td>
+<td>Dolphin</td>
 </tr>
 <tr>
 <td>3</td>
-<td>Grand temple</td>
+<td>Staggering</td>
+<td>Dwarf</td>
 </tr>
 <tr>
 <td>4</td>
-<td>Large Fortress</td>
+<td>Laughing</td>
+<td>Pegasus</td>
 </tr>
 <tr>
 <td>5</td>
-<td>Verdant parks and orchards</td>
+<td>Prancing</td>
+<td>Pony</td>
 </tr>
 <tr>
 <td>6</td>
-<td>River divides town</td>
+<td>Gilded</td>
+<td>Rose</td>
 </tr>
 <tr>
 <td>7</td>
-<td>Major trade center</td>
+<td>Running</td>
+<td>Stag</td>
 </tr>
 <tr>
 <td>8</td>
-<td>Headquarters of a powerful family or guild</td>
+<td>Howling</td>
+<td>Wolf</td>
 </tr>
 <tr>
 <td>9</td>
-<td>Population mostly wealthy</td>
+<td>Slaughtered</td>
+<td>Lamb</td>
 </tr>
 <tr>
 <td>10</td>
-<td>Destitute, rundown</td>
+<td>Leering</td>
+<td>Demon</td>
 </tr>
 <tr>
 <td>11</td>
-<td>Awful smell (tanneries, open sewers)</td>
+<td>Drunken</td>
+<td>Goat</td>
 </tr>
 <tr>
 <td>12</td>
-<td>Center of trade for one specific good</td>
+<td>Leaping</td>
+<td>Spirit</td>
 </tr>
 <tr>
 <td>13</td>
-<td>Site of many battles</td>
+<td>Roaring</td>
+<td>Horde</td>
 </tr>
 <tr>
 <td>14</td>
-<td>Site of mythic of magical event</td>
+<td>Frowning</td>
+<td>Jester</td>
 </tr>
 <tr>
 <td>15</td>
-<td>Important library or archive</td>
+<td>Lonely</td>
+<td>Mountain</td>
 </tr>
 <tr>
 <td>16</td>
-<td>Worship of all gods banned</td>
+<td>Wandering</td>
+<td>Eagle</td>
 </tr>
 <tr>
 <td>17</td>
-<td>Sinister reputation</td>
+<td>Mysterious</td>
+<td>Satyr</td>
 </tr>
 <tr>
 <td>18</td>
-<td>Notable library or academy</td>
+<td>Barking</td>
+<td>Dog</td>
 </tr>
 <tr>
 <td>19</td>
-<td>Site of important tomb or graveyard</td>
-</tr>
-<tr>
-<td>^notable</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>dice:1d20</th>
-<th>Known for</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Delicious cuisine</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Rude people</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Greedy merchants</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Artists and writers</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Great hero/savior</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Hordes of beggars</td>
-</tr>
-<tr>
-<td>7</td>
-<td>Flowers</td>
-</tr>
-<tr>
-<td>8</td>
-<td>Tough warriors</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Dark magic</td>
-</tr>
-<tr>
-<td>10</td>
-<td>Decadence</td>
-</tr>
-<tr>
-<td>11</td>
-<td>Piety</td>
-</tr>
-<tr>
-<td>12</td>
-<td>Gambling</td>
-</tr>
-<tr>
-<td>13</td>
-<td>Godlessness</td>
-</tr>
-<tr>
-<td>14</td>
-<td>Education</td>
-</tr>
-<tr>
-<td>15</td>
-<td>Wines</td>
-</tr>
-<tr>
-<td>16</td>
-<td>High Fashion</td>
-</tr>
-<tr>
-<td>17</td>
-<td>Political intrigue</td>
-</tr>
-<tr>
-<td>18</td>
-<td>Powerful guilds</td>
-</tr>
-<tr>
-<td>19</td>
-<td>Strong drink</td>
+<td>Black</td>
+<td>Spider</td>
 </tr>
 <tr>
 <td>20</td>
-<td>Patriotism</td>
+<td>Gleaming</td>
+<td>Star</td>
 </tr>
 <tr>
-<td>^known</td>
+<td>^tavernname</td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
+<h2 id=warehouse>Warehouse</h2>
 <table>
 <thead>
 <tr>
 <th>dice:1d20</th>
-<th>Calamity</th>
+<th>Building Type</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td>Suspected vampire infestation</td>
-</tr>
-<tr>
-<td>2</td>
-<td>New cult seeks converts</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Important figure died (murder suspected)</td>
-</tr>
-<tr>
-<td>4</td>
-<td>War between rival thieves' guilds</td>
+<td>1-4</td>
+<td>Empty or abandoned</td>
 </tr>
 <tr>
 <td>5-6</td>
-<td>Plague or famine (sparks riots)</td>
+<td>Heavily guarded, expensive goods</td>
 </tr>
 <tr>
-<td>7</td>
-<td>Corrupt officials</td>
+<td>7-10</td>
+<td>Cheap goods</td>
 </tr>
 <tr>
-<td>8-9</td>
-<td>Marauding monsters</td>
-</tr>
-<tr>
-<td>10</td>
-<td>Powerful wizard has moved into town</td>
-</tr>
-<tr>
-<td>11</td>
-<td>Economic depression (trade disrupted)</td>
-</tr>
-<tr>
-<td>12</td>
-<td>Flooding</td>
-</tr>
-<tr>
-<td>13</td>
-<td>Undead stirring in cemeteries</td>
-</tr>
-<tr>
-<td>14</td>
-<td>Prophecy of doom</td>
+<td>11-14</td>
+<td>Bulk goods</td>
 </tr>
 <tr>
 <td>15</td>
-<td>Brink of war</td>
+<td>Live animals</td>
 </tr>
 <tr>
-<td>16</td>
-<td>Internal strife (leads to anarchy)</td>
+<td>16-17</td>
+<td>Weapons/armor</td>
 </tr>
 <tr>
-<td>17</td>
-<td>Besieged by enemies</td>
-</tr>
-<tr>
-<td>18</td>
-<td>Scandal threatens powerful families</td>
-</tr>
-<tr>
-<td>19</td>
-<td>Dungeon discovered (adventurers flock to town)</td>
+<td>18-19</td>
+<td>Goods from a distant land</td>
 </tr>
 <tr>
 <td>20</td>
-<td>Religious sects struggle for power</td>
+<td>secret smuggler&rsquo;s den</td>
 </tr>
 <tr>
-<td>^calamity</td>
+<td>^warehouse</td>
 <td></td>
 </tr>
 </tbody>
 </table>
+<h2 id=shop>Shop</h2>
 <table>
 <thead>
 <tr>
-<th>dice:1d100</th>
-<th>Overall Alignment</th>
+<th>dice:1d20</th>
+<th>Building Type</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>01-20</td>
-<td>Lawful Good</td>
+<td>1</td>
+<td>Pawnshop</td>
 </tr>
 <tr>
-<td>21-28</td>
-<td>Neutral Good</td>
+<td>2</td>
+<td>Herbs/incense</td>
 </tr>
 <tr>
-<td>29-36</td>
-<td>Chaotic Good</td>
+<td>3</td>
+<td>Fruits/vegetables</td>
 </tr>
 <tr>
-<td>37-61</td>
-<td>Lawful Neutral</td>
+<td>4</td>
+<td>Dried meats</td>
 </tr>
 <tr>
-<td>62-67</td>
-<td>Neutral</td>
+<td>5</td>
+<td>Pottery</td>
 </tr>
 <tr>
-<td>68-69</td>
-<td>Chaotic Neutral</td>
+<td>6</td>
+<td>Undertaker</td>
 </tr>
 <tr>
-<td>70-89</td>
-<td>Lawful Evil</td>
+<td>7</td>
+<td>Books</td>
 </tr>
 <tr>
-<td>90-95</td>
-<td>Neutral Evil</td>
+<td>8</td>
+<td>Moneylender</td>
 </tr>
 <tr>
-<td>96-100</td>
-<td>Chaotic Evil</td>
+<td>9</td>
+<td>Weapons/armor</td>
 </tr>
 <tr>
-<td>^alignment</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>dice:1d100</th>
-<th>Government</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>01-08</td>
-<td>Autocracy</td>
+<td>10</td>
+<td>Chandler <sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></td>
 </tr>
 <tr>
-<td>09-13</td>
-<td>Bureaucracy</td>
+<td>11</td>
+<td>Smithy</td>
 </tr>
 <tr>
-<td>14-19</td>
-<td>Confederacy</td>
+<td>12</td>
+<td>Carpenter</td>
 </tr>
 <tr>
-<td>20-22</td>
-<td>Democracy</td>
+<td>13</td>
+<td>Weaver</td>
 </tr>
 <tr>
-<td>23-27</td>
-<td>Dictatorship</td>
+<td>14</td>
+<td>Jeweler</td>
 </tr>
 <tr>
-<td>28-42</td>
-<td>Feudalism</td>
+<td>15</td>
+<td>Baker</td>
 </tr>
 <tr>
-<td>43-44</td>
-<td>Gerontocracy</td>
+<td>16</td>
+<td>Mapmaker</td>
 </tr>
 <tr>
-<td>45-53</td>
-<td>Hierarchy</td>
+<td>17</td>
+<td>Tailor</td>
 </tr>
 <tr>
-<td>54-56</td>
-<td>Magocracy</td>
+<td>18</td>
+<td>Ropemaker</td>
 </tr>
 <tr>
-<td>57-58</td>
-<td>Matriarchy</td>
+<td>19</td>
+<td>Mason</td>
 </tr>
 <tr>
-<td>59-64</td>
-<td>Militocracy</td>
+<td>20</td>
+<td>Scribe</td>
 </tr>
 <tr>
-<td>65-74</td>
-<td>Monarchy</td>
-</tr>
-<tr>
-<td>75-78</td>
-<td>Oligarchy</td>
-</tr>
-<tr>
-<td>79-80</td>
-<td>Patriarchy</td>
-</tr>
-<tr>
-<td>81-83</td>
-<td>Meritocracy</td>
-</tr>
-<tr>
-<td>84-85</td>
-<td>Plutocracy</td>
-</tr>
-<tr>
-<td>86-92</td>
-<td>Republic</td>
-</tr>
-<tr>
-<td>93-94</td>
-<td>Satrapy</td>
-</tr>
-<tr>
-<td>95</td>
-<td>Kleptocracy</td>
-</tr>
-<tr>
-<td>95-100</td>
-<td>Theocracy</td>
-</tr>
-<tr>
-<td>^Government</td>
+<td>^shop</td>
 <td></td>
 </tr>
 </tbody>
@@ -634,7 +508,7 @@ Government: <code>dice: <a href=/home/worldbuilding/Tables/Settlements#^Governme
 <hr>
 <ol>
 <li id=fn:1 role=doc-endnote>
-<p>Dungeon Master&rsquo;s Guide 5e, p.112&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
+<p>a dealer in household items such as oil, soap, paint, and groceries.&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>
@@ -655,7 +529,7 @@ No backlinks found
 <div id=graph-container></div>
 <style>:root{--g-node:var(--secondary);--g-node-active:var(--primary);--g-node-inactive:var(--visited);--g-link:var(--outlinegray);--g-link-active:#5a7282}</style>
 <script src=https://jethoof.github.io/home/js/graph.27e8521c25c27c79dea35f434c486167.js></script>
-<script>drawGraph("https://jethoof.github.io/home/worldbuilding/Tables/Settlements","https://jethoof.github.io/home",[{"/moc":"#4388cc"},{"/stories":"#4ccc43"},{"/nanowrimo":"#9a43cc"},{"/journal":"#f2ea05"},{"/worldbuilding":"#f28305"}],-1,!0,!1,!0)</script>
+<script>drawGraph("https://jethoof.github.io/home/worldbuilding/Tables/Random-Buildings","https://jethoof.github.io/home",[{"/moc":"#4388cc"},{"/stories":"#4ccc43"},{"/nanowrimo":"#9a43cc"},{"/journal":"#f2ea05"},{"/worldbuilding":"#f28305"}],-1,!0,!1,!0)</script>
 </div>
 </div>
 <div id=contact_buttons>
