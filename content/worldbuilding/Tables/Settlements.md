@@ -9,15 +9,16 @@ tags:
 A village, town, or city makes an excellent backdrop for an adventure. The adventurers might be called on to track down a criminal who's gone into hiding, solve a murder, take out a gang of wererats or doppelgangers, or protect a settlement under siege.
 When creating a settlement for your campaign, focus on the locations that are most relevant to the adventure. Don't worry about naming every street and identifying the inhabitants of every building; that way lies madness.
 
-> [!info] Settlement<br>
-> Community Size: `dice:[[Settlements#^size]]` <br>
-> Race Relations:  `dice: [[Settlements#^race]]`<br>
-> Ruler's Status:  `dice: [[Settlements#^ruler]]`<br>
-> Notable Traits:  `dice: [[Settlements#^notable]]`<br>
-> Known for its  `dice: [[Settlements#^known]]`<br>
-> Current Calamity:  `dice: [[Settlements#^calamity]]`<br>
-> Overall Alignment: `dice:[[Settlements#^alignment]]`<br>
-> Government: `dice: [[Settlements#^Government]]`<br>
+> [!info] Settlement
+> 
+> Community Size: `dice:[[Settlements#^size]]` 
+> Race Relations:  `dice: [[Settlements#^race]]`
+> Ruler's Status:  `dice: [[Settlements#^ruler]]`
+> Notable Traits:  `dice: [[Settlements#^notable]]`
+> Known for its  `dice: [[Settlements#^known]]`
+> Current Calamity:  `dice: [[Settlements#^calamity]]`
+> Overall Alignment: `dice:[[Settlements#^alignment]]`
+> Government: `dice: [[Settlements#^Government]]`
 
 | Community Sizes | Population      |
 | --------------- | --------------- |

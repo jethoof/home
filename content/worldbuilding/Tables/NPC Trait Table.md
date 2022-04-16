@@ -4,22 +4,23 @@ title: "NPC Trait Table"
 tags:
 - worldbuilding
 ---
-> [!info]
-> **High Ability:**  `dice: [[NPC Trait Table#^abilities]]|High Ability` <br>
-> **Low Ability:**  `dice: [[NPC Trait Table#^abilities]]|Low Ability` <br>
-> **Age**: `dice: [[NPC Trait Table#^age]]` <br>
-> Appearance:  `dice: [[NPC Trait Table#^Appearance]]` <br>
-> Fear: `dice: [[NPC Trait Table#^Fear]]` <br>
-> Bonds: `dice:[[NPC Trait Table#^Bonds]]`<br>
-> Height: `dice:[[NPC Trait Table#^weightheight]]|Height`<br>
-> Weight:  `dice:[[NPC Trait Table#^weightheight]]|Weight`<br>
-> Ideal 1: `dice: [[NPC Trait Table#^ideal]]`<br>
-> Ideal 2: `dice: [[NPC Trait Table#^ideal]]`<br>
-> Personality: `dice: [[NPC Trait Table#^combatpersonality]]`<br>
-> Mannerism: `dice: [[NPC Trait Table#^mannerism]]`<br>
-> Talent: `dice: [[NPC Trait Table#^talent]]`<br>
-> Combat Personality: `dice: [[NPC Trait Table#^combatpersonality]]`<br>
-> Ally Relationship:  `dice: [[NPC Trait Table#^allyrelationships]]`<br>
+> [!info]+  NPC Trait Generator
+> 
+> **High Ability:**  `dice: [[NPC Trait Table#^abilities]]|High Ability` 
+> **Low Ability:**  `dice: [[NPC Trait Table#^abilities]]|Low Ability` 
+> **Age**: `dice: [[NPC Trait Table#^age]]`  
+> **Appearance**:  `dice: [[NPC Trait Table#^Appearance]]`  
+> **Fear**: `dice: [[NPC Trait Table#^Fear]]` 
+> **Bonds**: `dice:[[NPC Trait Table#^Bonds]]` 
+> **Height**: `dice:[[NPC Trait Table#^weightheight]]|Height` 
+> **Weight**:  `dice:[[NPC Trait Table#^weightheight]]|Weight` 
+> **Ideal 1**: `dice: [[NPC Trait Table#^ideal]]` 
+> **Ideal 2**: `dice: [[NPC Trait Table#^ideal]]` 
+> **Personality**: `dice: [[NPC Trait Table#^combatpersonality]]` 
+> **Mannerism**: `dice: [[NPC Trait Table#^mannerism]]` 
+> **Talent**: `dice: [[NPC Trait Table#^talent]]` 
+> **Combat Personality**: `dice: [[NPC Trait Table#^combatpersonality]]` 
+> **Ally Relationship**:  `dice: [[NPC Trait Table#^allyrelationships]]`
 
 | dice:1d6 | High Ability                                  | Low Ability                      |
 | -------- | --------------------------------------------- | -------------------------------- |
