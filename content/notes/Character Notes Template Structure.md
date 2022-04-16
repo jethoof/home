@@ -1,24 +1,14 @@
 ---
-title: "This is a Test Page"
-tags: 
-- testinggrounds
-- weird
-- random
+date: 2022-04-13
+title: "Character Notes Template Structure"
+status: 🌱🪴🌲🍇
+words:
+tags:
+- worldbuilding
 ---
-working on it
 
-```Testing
-what does this look like when it's up there?
-```
-
->How about quotes?
-
-
-
-[Map of Content](moc/Map%20of%20Content.md)
-
-Name: 
- At Glance: 
+Name:
+At Glance: 
 Personality:
 Physical:
 Race:
