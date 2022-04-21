@@ -19,6 +19,7 @@ When creating a settlement for your campaign, focus on the locations that are mo
 > Current Calamity:  `dice: [[Settlements#^calamity]]`
 > Overall Alignment: `dice:[[Settlements#^alignment]]`
 > Government: `dice: [[Settlements#^Government]]`
+^generator
 
 | Community Sizes | Population      |
 | --------------- | --------------- |

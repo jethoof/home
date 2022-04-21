@@ -15,6 +15,7 @@ part of town), you can always roll again or simply choose another result. Howeve
 > [!info] Random Building 
 > 
 > `dice: [[Random Buildings#^buildingtype]]`
+^generator
 
 ## Building Type
 | dice:1d20 | Building Type |

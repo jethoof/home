@@ -21,6 +21,7 @@ tags:
 > **Talent**: `dice: [[NPC Trait Table#^talent]]` 
 > **Combat Personality**: `dice: [[NPC Trait Table#^combatpersonality]]` 
 > **Ally Relationship**:  `dice: [[NPC Trait Table#^allyrelationships]]`
+^generator
 
 | dice:1d6 | High Ability                                  | Low Ability                      |
 | -------- | --------------------------------------------- | -------------------------------- |

@@ -108,5 +108,4 @@ tags:
 | A glass jar containing lard with a label that reads, "Griffon Grease"                                                   |
 | A wooden box with a ceramic bottom that holds a living worm with a head on each end of its body                         |
 | A metal urn containing the ashes of a hero                                                                              |
-
-^8f6dce
+^table

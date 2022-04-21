@@ -27,7 +27,7 @@ tags:
 
 ***Fire***. A fire breaks out, and the characters have a chance to help put out the flames before it spreads.
 
-***Found Trinket***. The characters find  `dice:[[Trinkets Table#^8f6dce]]`.
+***Found Trinket***. The characters find  `dice:[[Trinkets Table#^table]]`.
 
 ***Guard Harassment***. The adventurers are cornered by a `dice: 1d4+1` guards eager to throw their weight around. If threatened, the guards call out for help and might attract the attention of other guards or citizens nearby.
 

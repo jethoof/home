@@ -12,7 +12,8 @@ I sat in front of the dwarf and felt like I'm about to enter a duel of board gam
 
 "pleasure to meet you mister Ben and based on your looks you're not a bee keeper." Domalin grinned and looked over the kitchen and the fireplace where other halflings are.
 
-"Very much so, was it the height gave away, however seems like you are far more interesting than myself," I gestured to the rest of the members on the table I just joined then laid my sight on the ornate chest on the table.
+"Was it the height and you're not an arkwright from the looks of it" I joined the table  laid my sight on the ornate chest on the table.
 
-"Ah this is something I can trade if you have the coins for it but I doubt you'll have enough." He chuckled and tugged the chest closer to him.
+"Everyone's a critic, but this one will fetch a good fortune once we deliver it."
 
+"Give us a result and maybe I'll change my mind." Thimble cut in but her hand gets slapped away from the chest in Domalin's arms.
