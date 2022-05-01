@@ -44,4 +44,9 @@ Note that not all word counts goes towards my final goal as they can be drafts,
 | 3   | [[nanowrimo/202204/the merchant training - draft 1]]                         | 2143  |            |                |
 | 4   | [[nanowrimo/202204/day 4 protagonist misbelief ideation]]                    | 1064  |            | 4880           |
 | 5   | [[nanowrimo/202204/Milestone Scene 2 - draft 1]]                             | 1665  |            |                |
+| 6   | [[nanowrimo/202204/Scene 1 outline]]                                         |       |            |                |
+| 7   | [[nanowrimo/202204/Protagonist design - Ben Wiles]]                          |       |            |                |
+| 9   | [[nanowrimo/202204/day 4 protagonist misbelief ideation]]                    |       |            |                |
+| 10  | [[nanowrimo/202204/Scene 1 first draft]]                                     |       |            |                |
+| 11  | [[nanowrimo/202204/Scene 1 first draft part 2]]                              |       |            |                |
 

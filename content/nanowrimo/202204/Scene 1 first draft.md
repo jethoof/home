@@ -2,7 +2,7 @@
 date: 2022-04-11
 title: "Scene 1 first draft"
 status: 🌱🪴🌲🍇
-words: 1820
+words: 1819
 tags:
 ---
 
