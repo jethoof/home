@@ -49,4 +49,5 @@ Note that not all word counts goes towards my final goal as they can be drafts,
 | 9   | [[nanowrimo/202204/day 4 protagonist misbelief ideation]]                    |       |            |                |
 | 10  | [[nanowrimo/202204/Scene 1 first draft]]                                     |       |            |                |
 | 11  | [[nanowrimo/202204/Scene 1 first draft part 2]]                              |       |            |                |
+| 30    | [[nanowrimo/202204/Scene 1 Third Draft]]                                     | 3844  |            |                | 
 
