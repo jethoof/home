@@ -1,9 +1,10 @@
 ---
 date: 2022-05-01
 title: "Scene 1 Third Draft"
-status: 🌱🪴🌲🍇
-words:
+status: 🍇
+words: 3844
 tags:
+- nanowrimo
 ---
 I never knew the true value of a good story till I came to Berryglen; A two crate full of wax bars and four barrels of honey. The revelation was like finding an uncut gem at a market for a handful of copper coins. Soon I found myself as the uncut gem in another's eyes. But, first, let me tell you about wax and honey.
 
