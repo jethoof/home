@@ -26,7 +26,7 @@
                                         <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
                                     </div>
                                     <p class="meta">
-                                        {{.WordCount}} words. {{if ne .Date .Lastmod}}{{ .Lastmod.Format "January 2, 2006" }}{{else}}Unknown{{end}}
+                                        {{.WordCount}} words. {{if ne .Date .Lastmod}}{{ .Date.Format "January 2, 2006" }}{{else}}Unknown{{end}}
                                     </p>
                                     {{partial "tags.html" .}}
                                 </div>
