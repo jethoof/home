@@ -35,7 +35,7 @@
                         </ul>
                 <a href="/home/journal">See {{sub (len $writing) 3}} more →</a>
                 <div>
-                <h2>Recent Notes</h2>
+                <h2>Recent Writing</h2>
                 {{$notes := where .Site.RegularPages "Section" "nanowrimo"}}
                 <ul class="delay stagger">
                     {{range first 3 $notes }}
